@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SegundaActivity" >
+    
+     <ImageView
+       android:id="@+id/imageView1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_launcher" />
+     
+    <TextView
+        android:id="@+id/titlevertextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/titlevertextView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#0077cc"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/versotebtn"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="baixarImagem"
+        android:text="@string/versotebtn" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.38"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp" />
+
+    <Button
+        android:id="@+id/btnSair"        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:text="@string/sair"  />
+
+</LinearLayout>
